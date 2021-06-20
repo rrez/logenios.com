@@ -1,0 +1,112 @@
+body {
+  background-color: #e4e4e4; }
+
+.container {
+  background: #fff; }
+
+.log-green {
+  background-color: #23a093;
+  color: #fff; }
+
+.log-header {
+  background-color: #23a093;
+  color: #fff !important;
+  margin-top: 10px; }
+
+nav.log-header {
+  border-bottom: 15px solid #fff;
+  border-top: 15px solid #fff; }
+
+.log-header a {
+  font-size: 1.2em; }
+
+.log-blue {
+  background-color: #2c3a52;
+  color: #fff; }
+
+.log-blue a {
+  color: #fff; }
+
+.shadow {
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.45) !important;
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.45) !important; }
+
+.navbar-brand {
+  max-height: 60px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+a {
+  color: #23a093; }
+
+a:hover {
+  color: #23a093;
+  text-decoration: none; }
+
+.log-green a {
+  color: #ffffff; }
+
+.page-item.active .page-link {
+  background-color: #23a093;
+  border-color: #23a093; }
+
+.page-item.disabled .page-link {
+  border-color: #23a093; }
+
+.page-link {
+  color: #23a093;
+  border: 1px solid #23a093; }
+
+.btn-primary {
+  background-color: #23a093;
+  border-color: #23a093; }
+
+.btn-primary {
+  background-color: #23a093;
+  border-color: #23a093; }
+
+.btn-login {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important; }
+
+a.btn-login {
+  color: #23a093 !important; }
+
+.btn-primary:hover {
+  background-color: #2c3a52;
+  border-color: #2c3a52; }
+
+.btn:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.corona {
+  margin: 0 auto;
+  max-width: 1000px;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.45);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.45);
+  padding: 1rem; }
+
+.corona * {
+  padding: 0;
+  padding: 0; }
+
+.corona {
+  background-color: darkred;
+  color: white; }
+
+.corona a {
+  color: white; }
+
+.corona h2,
+.corona h3,
+.corona p {
+  border-bottom: none !important;
+  margin: 0;
+  padding: 0; }
+/*# sourceMappingURL=style.min.css.map */

@@ -1,0 +1,14 @@
+{
+  "name": "hugo-leg-eu.de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hugo": "hugo server --watch --verbose --buildDrafts --cleanDestinationDir --disableFastRender"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
