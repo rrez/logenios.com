@@ -14,8 +14,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav ms-auto">
-                        {{ range where .Site.RegularPages "Dir" "/" }}
-
+                        {{ range where .Site.RegularPages }}
                         <li>
                             <a href="{{.Permalink}}" class="nav-link pr-4"> {{.Title}}</a>
                         </li>
