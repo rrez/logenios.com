@@ -16,10 +16,9 @@
         <div class="col-lg-3 pt-3 px-5">
 
             <p class="float-right">
-                <a href="impressum">Impressum</a><br>
-                <a href="datenschutz">Datenschutz</a><br>
-                <a href="kontakt">Kontakt</a><br>
-                <a href="presse">Presse</a><br>
+                {{ range where .Site.RegularPages "Section" "footer" }}
+                <a href="{{.Permalink}}"> {{.Title}}</a><br />
+                {{ end }}
             </p>
         </div>
     </div>

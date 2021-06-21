@@ -5,9 +5,11 @@
     <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#1A94D2" />
+    {{- $image := resources.Get "img/favicon.png" -}}
+    <link rel="icon" type="image/png" href="{{ $image.RelPermalink }}" />
+
 
     {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
-
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
 
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
