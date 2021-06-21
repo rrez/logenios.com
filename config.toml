@@ -1,4 +1,4 @@
-BaseURL = "https://www.mywebsite.com/"
+BaseURL = "https://logenios.netlify.app/"
 languageCode = "de-de"
 relativeURLS = true
 theme = "logenios"
