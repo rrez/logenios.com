@@ -14,11 +14,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav ms-auto">
-                        {{ range where (where .Site.RegularPages "Dir" "/") "Params.noindex" "!=" true }}
                         <li>
-                            <a href="{{.Permalink}}" class="nav-link pr-4"> {{.Title}}</a>
+                            <a href="/l%C3%B6sung/" class="nav-link pr-4"> Lösung</a>
                         </li>
-                        {{ end }}
+
+                        <li>
+                            <a href="/kontakt/" class="nav-link pr-4"> Kontakt</a>
+                        </li>
+
+                        <li>
+                            <a href="/genossenschaft/" class="nav-link pr-4"> Genossenschaft</a>
+                        </li>
+
                         <li class="nav-item"><a href="https://app.logenios.com"
                                 class="btn btn-primary btn-login">Login</a>
                         </li>
@@ -28,3 +35,11 @@
         </nav>
     </div>
 </header>
+{{/*
+das funktioniert nicht auf Netlify warum auch immer falls hugo in frage kommt den Fehler finden.
+{{ range where (where .Site.RegularPages "Dir" "/") "Params.noindex" "!=" true }}
+<li>
+    <a href="{{.Permalink}}" class="nav-link pr-4"> {{.Title}}</a>
+</li>
+{{ end }}
+*/}}
