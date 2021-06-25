@@ -3,6 +3,7 @@ languageCode = "de-de"
 relativeURLS = true
 theme = "logenios"
 title = "Logenios"
+canonifyURLs = false
 
 [module]
   [[module.mounts]]

@@ -3,8 +3,8 @@ title: "Datenschutz"
 date: 2021-06-18T13:16:54+02:00
 draft: false
 ---
-test123 
-### DATENSCHUTZERKLÄRUNG
+ 
+### DATENSCHUTZERKLÄRUNG Neu
 Die nachfolgenden Hinweise zum Datenschutz gelten für den Internetauftritt der LOGENIOS eG unter logenios.com
 
 ### GELTUNGSBEREICH
